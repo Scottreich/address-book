@@ -70,6 +70,6 @@ $(document).ready(function(){
       $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
       });
     });
-
+    resetFields();
   });
 });
